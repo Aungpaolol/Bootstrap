@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.com/docs/5.3/examples/carousel/ -->
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Kessouku Band</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+
+    <link rel="canonical " href="https://getbootstrap.com/docs/5.3/examples/carousel/ ">
+
+
+
+
+
+    <link href="./Carousel Template · Bootstrap v5.3_files/bootstrap.min.css " rel="stylesheet " integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD " crossorigin="anonymous ">
+
+    <link rel="apple-touch-icon " href="https://getbootstrap.com/docs/5.3/assets/img/favicons/apple-touch-icon.png " sizes="180x180 ">
+    <link rel="manifest " href="https://getbootstrap.com/docs/5.3/assets/img/favicons/manifest.json ">
+    <link rel="mask-icon " href="https://getbootstrap.com/docs/5.3/assets/img/favicons/safari-pinned-tab.svg " color="#712cf9 ">
+    <link rel="icon " href="image/ICON.JPG">
+    <meta name="theme-color " content="#712cf9 ">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gajraj+One&family=Lilita+One&display=swap" rel="stylesheet">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+        
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+        
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+        
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+        
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+
+    <link href="style.css " rel="stylesheet ">
+</head>
+
+<body style="background-color: rgb(85, 44, 60);">
+
+    <main>
+
+        <style>
+            .carousel-item {
+                height: 32rem;
+                background: #777;
+                color: #ffffff;
+                font-family: 'Poppins';
+            }
+            
+            .overlay-image {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                top: 0;
+                background-position: center;
+                background-size: cover;
+                opacity: 0.5;
+            }
+        </style>
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="overlay-image" style="background-image:url(/image/BANNER.JPG); background-position: top;"></div>
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1 class="text-warning" style=" font-family: 'Lilita One'; -webkit-text-stroke: 2px rgb(0, 0, 0);">Anime Bocchi The Rock</h1>
+                            <p style="font-size: 20px; ">
+                                Yearning to make friends and perform live with a band, lonely and socially anxious Hitori "Bocchi" Gotou devotes her time to playing the guitar. On a fateful day, Bocchi meets the outgoing drummer Nijika Ijichi, who invites her to join Kessoku Band when
+                                their guitarist, Ikuyo Kita, flees before their first show. Soon after, Bocchi meets her final bandmate the cool bassist Ryou Yamada.
+                            </p>
+                            <p>
+                                <a class="btn btn-lg btn-warning " href="https://www.bilibili.tv/th/play/2069564">Check it out</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="overlay-image " style="background-image:url(/image/Banner2.jpg); background-position: bottom 30%; "></div>
+                    <div class="container ">
+                        <div class="carousel-caption ">
+                            <h1 class="text-warning" style="font-family: 'Lilita One'; -webkit-text-stroke: 2px rgb(0, 0, 0);">Kessouku Band</h1>
+                            <p style="font-size: 22px; ">Kessoku Band is a fictional musical group in the manga series Bocchi the Rock!. In the anime adaptation of the manga, Yoshino Aoyama, Sayumi Suzushiro, Saku Mizuno, and Ikumi Hasegawa provided the voices for Kessoku Band's
+                                members Hitori Gotō, Nijika Ijichi, Ryō Yamada, and Ikuyo Kita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+                    <div class="overlay-image " style="background-image:url(/image/Banner3.png); "></div>
+                    <div class="container ">
+                        <div class="carousel-caption text-end ">
+                            <h1 class="text-warning" style="font-family: 'Lilita One'; -webkit-text-stroke: 2px rgb(0, 0, 0); ">New Album</h1>
+                            <p style="font-size: 20px; font-weight: 400; ">Bocchi The Rock release new album called Kessouku Band!!!</p>
+                            <p><a class="btn btn-lg btn-warning " href="https://www.youtube.com/playlist?list=PLRW80bBvVD3XMl9MpqQMYOjVPYgRmjPpT">Listen now</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button " data-bs-target="#myCarousel " data-bs-slide="prev ">
+                <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                <span class="visually-hidden ">Previous</span>
+              </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+
+
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider ">
+
+        <div class="row featurette ">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading fw-normal lh-1 " style="font-family: 'Lalita One'; color: rgb(199, 87, 243);">Gotou Hitori</h2>
+                <p class="lead " style="color: black; font-weight: bolder;">A lonely and socially anxious first-year student. She is self-described as an "in-kya", i.e., a gloomy, indoor-dwelling outcast. She longs to join a band and become popular, and so starts playing the guitar.</p>
+            </div>
+            <div class="col-md-5 ">
+                <img src="/image/Hitori_Gotou.JPG" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height=" " xmlns="http://www.w3.org/2000/svg " role="img " aria-label="Placeholder: 500x500 " preserveAspectRatio="xMidYMid
+        slice " focusable="false ">
+                <title>Placeholder</title>
+                <rect width="100% " height="100% " fill="#eee "></rect><text x="50% " y="50% " fill="#aaa " dy=".3em "></text></svg>
+            </div>
+        </div>
+
+        <hr class="featurette-divider ">
+
+        <div class="row featurette ">
+            <div class="col-md-7 order-md-2 ">
+                <h2 class="featurette-heading fw-normal lh-1 " style="font-family: 'Lalita One'; color: rgb(251, 255, 0);">Ijichi Nijika</h2>
+                <p class="lead " style="color: black; font-weight: bolder;">An energetic and cheerful second-year high school student. She is the drummer of Kessoku Band. The organizer of her band who takes care of Hitori was already joined Kessoku Band. She has an older sister, Seika, who is the manager of the
+                    live house "STARRY" and has a special feeling for the live house.</p>
+            </div>
+            <div class="col-md-5 order-md-1 ">
+                <img src="/image/Nijika Ijichi.JPG" class="bd-placeholder2" width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " role="img " aria-label="Placeholder: 500x500 " preserveAspectRatio="xMidYMid
+        slice " focusable="false ">
+                <title>Placeholder</title>
+                <rect width="100% " height="100% " fill="#eee "></rect><text x="50% " y="50% " fill="#aaa " dy=".3em "></text></svg>
+            </div>
+        </div>
+
+        <hr class="featurette-divider ">
+
+        <div class="row featurette ">
+            <div class="col-md-7 ">
+                <h2 class="featurette-heading fw-normal lh-1 " style="font-family: 'Lalita One'; color: rgb(46, 0, 211);">Yamada Ryou</h2>
+                <p class="lead " style="color: black; font-weight: bolder;">A cool and solitary second year of high school. She is in charge of the bass of Kessoku Band. She's the best friend of Nijika. Her hobbies are out of the ordinary, and she rejoices when called a weirdo. She lives with a wealthy family,
+                    but she spends much of her money on instruments and always runs out of money. She occasionally eats weeds to get rid of her hunger.</p>
+            </div>
+            <div class="col-md-5 ">
+                <img src="/image/Ryou Yamada.JPG" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " role="img " aria-label="Placeholder: 500x500 " preserveAspectRatio="xMidYMid
+        slice " focusable="false ">
+                <title>Placeholder</title>
+                <rect width="100% " height="100% " fill="#eee "></rect><text x="50% " y="50% " fill="#aaa " dy=".3em "></text></svg>
+            </div>
+        </div>
+
+        <hr class="featurette-divider ">
+
+        <div class="row featurette ">
+            <div class="col-md-7 order-md-2 ">
+                <h2 class="featurette-heading fw-normal lh-1 " style="font-family: 'Lalita One'; color: rgb(179, 6, 0);">Kita Ikuyo</h2>
+                <p class="lead " style="color: black; font-weight: bolder;">A bright and popular first year of high school. She is in charge of the guitar and vocals of Kessoku Band. She is a cheerful character who likes to interact with people and can talk to her with a smile without hesitation, even when she
+                    meets her for the first time. She longs for Ryo, and her feelings can go too far. She often takes photos and uploads to Isosta.</p>
+            </div>
+            <div class="col-md-5 order-md-1 ">
+                <img src="/image/KIta Ikuyo.JPG" class="bd-placeholder2" width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " role="img " aria-label="Placeholder: 500x500 " preserveAspectRatio="xMidYMid
+        slice " focusable="false ">
+                <title>Placeholder</title>
+                <rect width="100% " height="100% " fill="#eee "></rect><text x="50% " y="50% " fill="#aaa " dy=".3em "></text></svg>
+            </div>
+        </div>
+
+        <hr class="featurette-divider ">
+
+
+        </div>
+
+
+        <footer class="container " style="position: absolute; left: 75%;">
+            <p><a class="btn btn-lg btn-warning " href="# ">Back To Top</a></p>
+        </footer>
+    </main>
+
+
+    <script src="./Carousel Template · Bootstrap v5.3_files/bootstrap.bundle.min.js.download " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+
+
+
+
+</body>
+
+</html>
